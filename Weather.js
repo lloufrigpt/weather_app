@@ -70,19 +70,19 @@ const weatherOptions = {
 export default function Weather({temp, condition}){
     return (
     <LinearGradient 
-        colors={ weatherOption[condition].gradient } 
+        colors={ weatherOptions[condition].gradient } 
         style={styles.container}>
         <StatusBar barStyle="light-content" />
-        <View style={styles.halfcontainer}>
+        <View style={styles.halfContainer}>
             <MaterialCommunityIcons 
                 size={96} 
-                name={ weatherOption[condition].iconName } 
+                name={ weatherOptions[condition].iconName } 
                 color="white"/>
             <Text style={styles.temp}>{temp}˚</Text>
         </View>
-        <View style={{...styles.halfcontainer, ...styles.textContainer}}>
-            <Text style={styles.title}>{ weatherOption[condition].title }</Text>
-            <Text style={styles.subtitle}>{ weatherOption[condition].subtitle }</Text>
+        <View style={{...styles.halfContainer, ...styles.textContainer}}>
+            <Text style={styles.title}>{ weatherOptions[condition].title }</Text>
+            <Text style={styles.subtitle}>{ weatherOptions[condition].subtitle }</Text>
         </View>
     </LinearGradient>
     );
@@ -98,7 +98,7 @@ Weather.PropTypes = {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justyfiContent: "center",
+        justifyContent: "center",
         alignItems: "center"
     },
     temp: {
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
     },
     halfContainer: {
         flex: 1,
-        justyfiContent: "center",
+        justifyContent: "center",
         alignItems: "center"
     },
     title: {

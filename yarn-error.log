@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\김소희\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add expo-linear-gradient@~8.4.0
+  C:\Program Files\nodejs\node.exe C:\Users\김소희\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add axios
 
 PATH: 
   D:\Downloads\oracle_home\WINDOWS.X64_193000_db_home\bin;D:\Downloads\Oracle\WINDOWS.X64_193000_db_home\bin;D:\Downloads\WINDOWS.X64_193000_db_home\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Scripts\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\MATLAB\R2019b\bin;C:\apache-maven-3.6.3\bin;C:\Apache24\bin;C:\php;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;D:\Downloads\Android\Sdk\platform-tools\;D:\Downloads\Android\Sdk\tools\;C:\Java\jdk1.8.0_251\bin\;C:\strings;C:\Users\김소희\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\김소희\AppData\Local\Programs\Python\Python39;C:\Users\김소희\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\김소희\AppData\Local\Programs\Python\Python39\;C:\Users\김소희\AppData\Local\Microsoft\WindowsApps;;C:\Users\김소희\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\김소희\AppData\Roaming\npm
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'D:\Study\nomadcoders\weather_app\node_modules\@babel\helper-compilation-targets\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'D:\Study\nomadcoders\weather_app\node_modules\@babel\generator\node_modules\.bin'
 
 npm manifest: 
   {
@@ -28,6 +28,7 @@ npm manifest:
     },
     "dependencies": {
       "expo": "~40.0.0",
+      "expo-linear-gradient": "~8.4.0",
       "expo-location": "~10.0.0",
       "expo-status-bar": "~1.0.3",
       "react": "16.13.1",
